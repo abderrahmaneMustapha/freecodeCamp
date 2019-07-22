@@ -1,0 +1,161 @@
+
+#navbar{ 
+  position:fixed;
+  top:0;
+  width:96vw;
+  background:rgba(104, 177, 180, 0.6); 
+   z-index:5;
+}
+
+ ul{
+  list-style-type:none;  
+}
+
+
+#navbar ul li a{
+  float:left;
+  padding: 1em 1em 1em 1em;
+  cursor:pointer;
+  margin-top:-1em;
+}
+a{
+  text-decoration:none;
+}
+#navbar ul li a{
+  color:#292929;
+  
+}
+
+
+#navbar ul li a:hover{
+  background-color: #CCCCCC;
+  cursor: pointer;
+}
+
+main{
+  margin : -2em 0px -2em 0px;
+}
+#welcome-section{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-conent:center;
+  align-items:center;
+  height: 100vh;
+  widht: 100vw;
+  background:  
+    linear-gradient(
+      rgba(104, 177, 180, 0.3), 
+      rgba(104, 177, 180,0.5),
+      #5A5F73
+    );
+ 
+}
+
+ h1{
+  color:#444858;
+  text-align:center;
+}
+#welcome-section img{
+  display:block;
+  width:33%;
+  height:auto;
+  border-radius:50%; 
+  overflow:hidden;
+  position: relative;
+  z-index:0;
+}
+
+@media(min-width: 900px){
+  #welcome-section img{
+     width:26%;
+  }
+  }
+
+#projects{
+   background:  
+    linear-gradient(
+      #5A5F73, 
+      #5A5F73,
+      #5A5F70
+    );
+ margin-top:-1.5em;
+  }
+
+#projects .projects-grid{
+  display:grid;
+  justify-content: space-around;
+  grid-template-columns: 8em 8em 8em;
+  
+}
+
+#projects .projects-grid a{
+  display:flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  margin-bottom: 30px
+}
+
+#projects h1{
+  color:#B3D7D9;
+}
+
+#projects .projects-grid a p {
+ color:#CCC;
+ text-align:center
+}
+
+#contact{
+  background:
+     linear-gradient(
+      #5A5F73, 
+      #5A5F73,
+      #B3D7D9
+    );
+  margin-top:-1.5em;
+}
+
+#contact h1{
+  color:#B3D7D9;
+  padding:2em;
+}
+
+#contact ul li{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+#contact ul li a{
+   display: flex;
+  flex-direction: column;
+  align-items:center;
+  color:#5A5F73;
+  text-align:center;
+  margin:2em;
+ 
+}
+
+
+footer{
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   background:  
+    linear-gradient(
+      rgba(104, 177, 180,0.5),
+      rgba(104, 177, 180,0.6),
+      #5A5F73
+    );
+  height:20vh;
+  margin-top: -1em;
+  
+}
+
+footer p{
+ align-text:center;
+ color:#5A5F73;
+}
+
