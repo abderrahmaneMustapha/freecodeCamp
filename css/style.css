@@ -1,4 +1,8 @@
-
+body{
+  height: 100%;
+  width:100%;
+  background:#9CCBCE;
+}
 #navbar{
   position:fixed;
   top:0;
@@ -32,9 +36,7 @@ a{
   cursor: pointer;
 }
 
-main{
-  margin : -2em 0px -2em 0px;
-}
+
 #welcome-section{
   display:flex;
   flex-direction:column;
@@ -43,12 +45,8 @@ main{
   align-items:center;
   height: 100vh;
   widht: 100vw;
-  background:
-    linear-gradient(
-      rgba(104, 177, 180, 0.3),
-      rgba(104, 177, 180,0.5),
-      #5A5F73
-    );
+  background:rgba(104, 177, 180, 0.3);
+
 
 }
 
@@ -95,14 +93,19 @@ main{
   display:flex;
   flex-direction: column;
   border: 1px solid #ccc;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
 }
 
 #projects .projects-grid a img{
   display: block;
   height: auto;
-  height: 250px;
-  width: 400px;
+  margin-top:5px;
+  margin-left: 10px;
+  height: 220px;
+  width: 380px;
 
 
   }
@@ -121,12 +124,8 @@ main{
 }
 
 #contact{
-  background:
-     linear-gradient(
-      #5A5F73,
-      #5A5F73,
-      #B3D7D9
-    );
+  background:#B3D7D9;
+
   margin-top:-1.5em;
 }
 
@@ -158,12 +157,7 @@ footer{
    display:flex;
    align-items:center;
    justify-content: center;
-   background:
-    linear-gradient(
-      rgba(104, 177, 180,0.5),
-      rgba(104, 177, 180,0.6),
-      #5A5F73
-    );
+   background: #5A5F73;
   height:20vh;
   margin-top: -1em;
 
